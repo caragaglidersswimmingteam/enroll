@@ -1,0 +1,342 @@
+
+
+/*==========================================================================================
+	
+This file contains styles related to the colour scheme of the theme
+
+==========================================================================================*/
+
+a
+{
+    color: #4E88C0;
+    text-decoration: none;
+}
+
+a:hover
+{
+    text-decoration: none;
+    color: #263644;
+}
+
+body
+{
+    color: #909090;
+    background: #ffffff;
+    font-size: 14px;
+    font-family: 'Open Sans', Arial, sans-serif;
+    line-height: 20px;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+}
+
+h1,h2,h3, h4,h5,h6, .menu
+{
+    font-family: 'Open Sans', Arial, sans-serif;
+}
+
+.nav-bar
+{
+    background: #ffffff;
+    -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+#intro
+{
+    background-image: url('../images/bkgs/bkg-intro4.JPG');
+    color: #ffffff;
+}
+
+.bkg-cover
+{
+    background-color: rgba(78, 136, 192, 0.5);
+    height: 100%;
+}
+
+.btn-flat
+{
+    border: 1px solid #ffffff;
+    color: #ffffff;
+}
+
+.btn-flat:hover
+{
+    border: 1px solid #ffffff;
+    background: #ffffff;
+    color: #4E88C0;
+}
+
+.btn-flat-fill, #submit, #submit-comm
+{
+    background: #4E88C0;
+    color: #ffffff;
+    -webkit-box-shadow: 0px 6px 0px #315C88;
+    -moz-box-shadow: 0px 6px 0px #315C88;
+    box-shadow: 0px 6px 0px #315C88;
+}
+
+.btn-flat-fill:hover, #submit:hover, #submit-comm:hover, .current-page
+{
+    background: #3C72A8;
+    color: #ffffff;
+}
+
+.btn-flat-fill:active, .btn-flat-fill:focus, #submit:active, #submit:focus, #submit-comm:active, #submit-comm:focus
+{
+    -webkit-box-shadow: 0px 1px 0px #315C88;
+    -moz-box-shadow: 0px 1px 0px #315C88;
+    box-shadow: 0px 1px 0px #315C88;
+}
+
+.menu li a
+{
+    color: #263644;
+}
+
+.menu li a:hover, .menu li a:focus, .menu li a.active
+{
+    color: #ffffff;
+    background: #4E88C0;
+}
+
+.mobile-navigation
+{
+    background-color: #F8F8F8;
+    color: #8F8F8F;
+}
+
+.section-title
+{
+    border: 2px solid #4E88C0;
+    color: #4E88C0;
+}
+
+.section-sub-title
+{
+    border: 2px solid #ffffff;
+    color: #ffffff;
+}
+
+.about-img
+{
+    background: #4E88C0;
+    -webkit-box-shadow: 5px 5px 0px #315C88;
+    -moz-box-shadow: 5px 5px 0px #315C88;
+    box-shadow: 5px 5px 0px #315C88;
+}
+
+.about-feature h4
+{
+    color: #263644;
+}
+
+#team-bkg
+{
+    background-image: url("../images/bkgs/bkg-team.jpg");
+}
+
+#team-bkg-cover
+{
+    background-color: rgba(78, 136, 192, 0.7);
+}
+
+.team-member h4, .flexslider-testimonials
+{
+    color: #ffffff;
+}
+
+.team-member span
+{
+    color: #263644;
+}
+
+#portfolio-filter li a, #portfolio-filter li:after
+{
+    color: #263644;
+}
+
+#portfolio-filter li a:hover
+{
+    color: #4E88C0;
+}
+
+.shot-more
+{
+    background: none repeat scroll 0 0 #4E88C0;
+    color: #ffffff;
+}
+
+#testimonials-bkg
+{
+    background-image: url("../images/bkgs/testimonials-bkg.jpg");
+}
+
+#testimonials-bkg-cover
+{
+    background-color: rgba(78, 136, 192, 0.7);
+}
+
+.service h5
+{
+    color: #263644;
+}
+
+#price-bkg
+{
+    background-image: url("../images/bkgs/price-bkg.jpg");
+}
+
+#price-bkg-cover
+{
+    background-color: rgba(78, 136, 192, 0.7);
+}
+
+.table-column
+{
+    background: #ffffff;
+}
+
+.column-title
+{
+    background: #263644;
+    color: #ffffff;
+}
+
+.column-price
+{
+    background: #f0f0f0;
+    color: #263644;
+}
+
+.blog-more
+{
+    background: #4E88C0;
+}
+
+.blog-info span
+{
+    color: #263644;
+}
+
+.blog-info a, .title-blog-post a, .single-title-blog-post
+{
+    color: #263644;
+}
+
+.blog-info a:hover, .title-blog-post a:hover
+{
+    color: #4E88C0;
+}
+
+.blog-info
+{
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.contact-bkg
+{
+    background: #263644;
+}
+
+.contact-bkg, .section-color, .section-color-c
+{
+    color: #ffffff;
+}
+
+.section-color-c
+{
+    border: 2px solid #ffffff;
+}
+
+input.comm-field, #message2
+{
+    border: none;
+    color: #ffffff;
+    background: #1a252e;
+}
+
+input.comm-field-post, #comment
+{
+    border: 2px solid #e5e5e5;
+}
+
+input.comm-field:focus, #message2:focus
+{
+    color: #1a252e;
+    background: #4E88C0;
+}
+
+.comm-title h5, .widgettitle
+{
+    color: #263644;
+}
+
+#search-string
+{
+    border: 2px solid #e5e5e5;
+}
+
+.widget_recent_entries ul li a, .widget_categories ul li a, .widget_archive ul li a
+{
+    color: #263644;
+}
+
+.widget_recent_entries ul li a:hover, .widget_categories ul li a:hover, .widget_archive ul li a:hover
+{
+    color: #4E88C0;
+}
+
+.widget_tag_cloud a
+{
+    background: #263644;
+    color: #ffffff;
+}
+
+.widget_tag_cloud a:hover
+{
+    background: #4E88C0;
+    color: #263644;
+}
+
+.output2
+{
+    border: 1px solid #ff0000;
+}
+
+.comment-body
+{
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.comment-author .author a:link, .comment-author .author a:visited, .comment-reply-link, .title-archive
+{
+    color: #263644;
+}
+
+.comment-author .author a:hover, .comment-reply-link:hover, .widget_recent_entries ul li:before, .widget_categories ul li:before, .widget_archive ul li:before
+{
+    color: #4E88C0;
+}
+
+footer
+{
+    background: #ffffff;
+    background-color: #101010;
+    color: #f9ecec;
+}
+
+.project-close span
+{
+    border: 1px solid #4E88C0;
+    background: #4E88C0;
+    color: #ffffff;
+}
+
+.project-close span:hover
+{
+    border: 1px solid #4E88C0;
+    color: #4E88C0;
+    background: none;
+}
+
